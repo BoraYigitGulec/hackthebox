@@ -3,6 +3,7 @@
 # catch request with burp
 ```
 ```bash
+take the token
 decode Tzo5OiJQYWdlTW9kZWwiOjE6e3M6NDoiZmlsZSI7czoxNToiL3d3dy9pbmRleC5odG1sIjt9 with base64
 obtain O:9:"PageModel":1:{s:4:"file" s:15:"/www/index.html";}
 ```
