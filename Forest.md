@@ -15,7 +15,7 @@ PING 10.129.72.31 (10.129.72.31) 56(84) bytes of data.
 rtt min/avg/max/mdev = 68.519/69.898/72.789/1.772 ms
                                                                                            
 nmap -sC -sV 10.129.238.207 -p-
-Nmap scan report for 10.129.72.31
+Nmap scan report for 10.129.238.207
 Host is up (0.14s latency).
 Not shown: 65511 closed tcp ports (conn-refused)
 PORT      STATE SERVICE      VERSION
