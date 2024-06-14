@@ -1,16 +1,16 @@
 # Forest
 ```bash
 ping 10.129.238.207 
-PING 10.129.72.31 (10.129.72.31) 56(84) bytes of data.
-64 bytes from 10.129.72.31: icmp_seq=1 ttl=127 time=69.5 ms
-64 bytes from 10.129.72.31: icmp_seq=2 ttl=127 time=68.5 ms
-64 bytes from 10.129.72.31: icmp_seq=3 ttl=127 time=68.5 ms
-64 bytes from 10.129.72.31: icmp_seq=4 ttl=127 time=72.5 ms
-64 bytes from 10.129.72.31: icmp_seq=5 ttl=127 time=68.7 ms
-64 bytes from 10.129.72.31: icmp_seq=6 ttl=127 time=68.7 ms
-64 bytes from 10.129.72.31: icmp_seq=7 ttl=127 time=72.8 ms
+PING 10.129.238.207 (10.129.238.207) 56(84) bytes of data.
+64 bytes from 10.129.238.207: icmp_seq=1 ttl=127 time=69.5 ms
+64 bytes from 10.129.238.207: icmp_seq=2 ttl=127 time=68.5 ms
+64 bytes from 10.129.238.207: icmp_seq=3 ttl=127 time=68.5 ms
+64 bytes from 10.129.238.207: icmp_seq=4 ttl=127 time=72.5 ms
+64 bytes from 10.129.238.207: icmp_seq=5 ttl=127 time=68.7 ms
+64 bytes from 10.129.238.207: icmp_seq=6 ttl=127 time=68.7 ms
+64 bytes from 10.129.238.207: icmp_seq=7 ttl=127 time=72.8 ms
 ^C
---- 10.129.72.31 ping statistics ---
+--- 10.129.238.207 ping statistics ---
 7 packets transmitted, 7 received, 0% packet loss, time 6011ms
 rtt min/avg/max/mdev = 68.519/69.898/72.789/1.772 ms
                                                                                            
@@ -268,24 +268,15 @@ licenses:     /usr/share/neo4j/licenses
 run:          /var/lib/neo4j/run
 Starting Neo4j.
 2024-06-14 11:29:27.868+0000 INFO  Starting...
-2024-06-14 11:29:28.114+0000 INFO  This instance is ServerId{aa095c25} (aa095c25-37cb-4783-9ebc-1e540c52f5fb)
-2024-06-14 11:29:28.706+0000 INFO  ======== Neo4j 4.4.26 ========
-2024-06-14 11:29:29.326+0000 INFO  Performing postInitialization step for component 'security-users' with version 3 and status CURRENT
-2024-06-14 11:29:29.326+0000 INFO  Updating the initial password in component 'security-users'
-2024-06-14 11:29:29.778+0000 INFO  Bolt enabled on localhost:7687.
-2024-06-14 11:29:30.224+0000 INFO  Remote interface available at http://localhost:7474/
-2024-06-14 11:29:30.228+0000 INFO  id: 7571FF76BB45697325601642C07576DF5AB6571CEAA85454D0B3CA5602D72687
-2024-06-14 11:29:30.228+0000 INFO  name: system
-2024-06-14 11:29:30.228+0000 INFO  creationDate: 2024-05-24T12:19:07.697Z
 2024-06-14 11:29:30.228+0000 INFO  Started.
 ```
 ```bash
 sudo bloodhound                   
 #after running this command bloodhound will start and you will be able to see the active directory mapping. You need to move hellhounds.zip to hellhound application
-after that open menu with 3 stripes symbol and click Analysis. After that go all the way down and click Find Shortest Paths to Domain Admins. Now you will be able to
-see the active directory mapping.
+#after that open menu with 3 stripes symbol and click Analysis. After that go all the way down and click Find Shortest Paths to Domain Admins. Now you will be able to
+#see the active directory mapping.
 <img width="1493" alt="image" src="https://github.com/BoraYigitGulec/hackthebox/assets/114056361/7350b39d-40bf-4376-9f8f-f3392c9e2789">
-you can click use the src link to see my screen.
+you can use the src link to see my screen.
 After this right click to WriteDacl and click to help. Then click to Windows Abuse to see how we can abuse it
 
 ```
