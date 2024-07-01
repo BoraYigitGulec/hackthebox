@@ -1,2 +1,2 @@
 # hackthebox
-Hack The Box Walktroughs
+Hack The Box Walkthroughs
